@@ -28,8 +28,8 @@ import (
 
 	"github.com/blevesearch/bleve/index/store"
 	"github.com/blevesearch/bleve/registry"
+	"github.com/dgraph-io/badger"
 	"github.com/dgraph-io/badger/options"
-	"gopkg.in/dgraph-io/badger.v1"
 )
 
 const (

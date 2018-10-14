@@ -2,7 +2,7 @@ package bbadger
 
 import (
 	"github.com/blevesearch/bleve/index/store"
-	"gopkg.in/dgraph-io/badger.v1"
+	"github.com/dgraph-io/badger"
 )
 
 type Batch struct {
