@@ -3,7 +3,7 @@ package bbadger
 import (
 	"bytes"
 
-	"gopkg.in/dgraph-io/badger.v1"
+	"github.com/dgraph-io/badger"
 )
 
 type RangeIterator struct {
